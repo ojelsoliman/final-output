@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriwearther', sans-serif;
+}
+
+h1 {
+    color: #66bfbf;
+    font-size: 5.625em;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding: 100px;
+    animation-name: example;
+    animation-duration: 10s;
+}
+@keyframes example {
+    0% {background-color: rgb(67, 9, 224);}
+    25%{background-color: #61dfdf;}
+    50%{background-color: chartreuse;}
+    100%{background-color: #66bfbf;}
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+}
+ 
+.picture {
+   border-radius: 50%;
+   border-style: solid;
+   color:#61dfdf;
+   border-width: 7px;
+   height: 200px;
+}
+
+ .middle-container .skill-row {
+    width: 50%;
+    margin: 50px auto 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.middle-container .skills .skill-row .skill1 {
+    border-radius: 50%;
+    float: left;
+    height: 200px;
+    margin-right: 30px;
+}
+
+.middle-container .skills .skill-row .skill2 {
+    border-radius: 50%; 
+    float: right;
+    height: 200px;
+    margin-left: 30px;
+}
+
+hr {
+    border-color: grey;
+    border-style: dotted none none;
+    border-width: 8px;
+    width: 80px;
+}
+
+.profile {
+    margin: 25px 650px 100px 650px;
+    line-height: 2;
+}
+
+.skills {
+    margin-top: 100px;
+}
+
+.contact-me {
+    margin: 100px 400px 50px 400px;
+    line-height: 2;
+}
+
+.btn {
+    background-image: linear-gradient(#82f0f0, #158e92);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    height: 150px;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+.idol {
+    color: white;
+}
+
+.footer-link {
+    text-decoration: none;
+    padding: 30px 20px;
+    display: inline-block;
+    color: #158e92;
+    opacity: 0 , 6;
+    transition: 0.3s;
+}
+.btn:hover {opacity: 1;}
+
+.footer-link {opacity: 1;}
+.btn:active {
+    background-color:yellow;
+    box-shadow: 0.5px green;
+    transform: translateY(4px);
+}
